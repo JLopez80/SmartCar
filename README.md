@@ -45,6 +45,21 @@ The following hardware components from the **Elegoo Smart Robot Car V4.0** kit a
   - **Time** (for time-related functions, such as delays)
     - Does not need to be installed since it is a built-in Python library.
 
+## Installing FFmpeg (required for Whisper)
+  - Windows: Download form [FFmpeg.org](https://ffmpeg.org/download.html)
+    - Extract to a folder (e.g., `C:\ffmpeg`)
+    - Add `C:\ffmpeg\bin` to your system `PATH`
+    - Verify with:
+     ```bash
+     ffmpeg -version
+  - Linux (Ubuntu/Debian):
+      ```bash
+       sudo apt update
+       sudo apt install ffmpeg
+  - macOS (using Homebrew):
+     ```bash
+       brew install ffmpeg
+
 ## Getting Started
 
 1. **Build the car according to Elegoo's V4.0 kit manual.**  
