@@ -45,6 +45,21 @@ The following hardware components from the **Elegoo Smart Robot Car V4.0** kit a
   - **Time** (for time-related functions, such as delays)
     - Does not need to be installed since it is a built-in Python library.
 
+## Getting Started
+
+1.) Build the car according to Elegoo's V4.0 kit manual.  
+  - **NOTE:** Make sure the following motor connections are correct:
+    - Upper left motor → **M1** on the motor shield  
+    - Upper right motor → **M2** on the motor shield
+    - Rear left motor → **M4** on the motor shield
+    - Rear right motor → **M3** on the motor shield 
+
+> ⚠️ These details are mentioned in the manual but can be easily overlooked. If any motors are connected incorrectly, the car may move in the wrong direction when executing commands.
+
+2.) After assembling the car, run this [python code](SmartCar.py).
+
+
+    
 ## Credits / Acknowledgements
 - **Whisper** by OpenAI for the speech-to-text model.
 - **SpeechRecognition** by Anthony Zhang for handling audio recording and recognition.
@@ -52,7 +67,7 @@ The following hardware components from the **Elegoo Smart Robot Car V4.0** kit a
 - **Elegoo Smart Robot Car V4** for the base hardware and integration with the ESP32 board.
 
 ## Demonstration video  
-This [video](https://youtu.be/0AbyosnZ-v8) demonstrates the project works. 
+This [video](https://youtu.be/0AbyosnZ-v8) demonstrates how the project works. 
 
 
      
