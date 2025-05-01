@@ -70,8 +70,21 @@ The following hardware components from the **Elegoo Smart Robot Car V4.0** kit a
 5. **Test the commands.**
    -  Try *move forward*
      - The following should appear:
-           
+  
+       ![Command Example](images/Command-Example.png)
+   - Feel free to try the other commands
+  
+## Potential Issues
 
+- **ESP32 Access Point Not Showing Up**: As mentioned before, if you don't see the ESP32 access point, ensure the car is powered on. The ESP32 needs to be receiving power in order to broadcast the access point.
+
+- **Unable to Connect to the ESP32 Access Point**: If you're having trouble connecting to the access point, try rebooting the car. Ensure that you’re connecting to the correct Wi-Fi network (the one created by the ESP32).
+
+- **No recognizable command detected**: Whisper can be sensitive in terms of transfering audio to text. To avoid this issue, use simple commands if you choose to edit the code.
+
+- **Microphone Not Detected**: If the microphone isn't detected by the speech recognition library, make sure it's properly connected to the system, and check if it's the default input device. You can also try restarting your computer.
+
+- **ESP32 Not Responding to Commands**: If the car doesn't move after sending commands, ensure that the motors are correctly connected to the motor shield. Verify that the ESP32's IP address matches the one specified in the code (`192.168.4.1`) and that port 100 is open for communication.
 
     
 ## Credits / Acknowledgements
