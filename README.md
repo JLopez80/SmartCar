@@ -47,16 +47,23 @@ The following hardware components from the **Elegoo Smart Robot Car V4.0** kit a
 
 ## Getting Started
 
-1.) Build the car according to Elegoo's V4.0 kit manual.  
-  - **NOTE:** Make sure the following motor connections are correct:
-    - Upper left motor → **M1** on the motor shield  
-    - Upper right motor → **M2** on the motor shield
-    - Rear left motor → **M4** on the motor shield
-    - Rear right motor → **M3** on the motor shield 
+1. **Build the car according to Elegoo's V4.0 kit manual.**  
+   - **NOTE:** Make sure the following motor connections are correct:
+     - Upper left motor → **M1** on the motor shield  
+     - Upper right motor → **M2** on the motor shield  
+     - Rear left motor → **M4** on the motor shield  
+     - Rear right motor → **M3** on the motor shield  
 
-> ⚠️ These details are mentioned in the manual but can be easily overlooked. If any motors are connected incorrectly, the car may move in the wrong direction when executing commands.
+   > ⚠️ These details are mentioned in the manual but can be easily overlooked. If any motors are connected incorrectly, the car may move in the wrong direction when executing commands.
 
-2.) After assembling the car, run this [python code](SmartCar.py).
+2. **Turn on the car and connect to the ESP32 access point.**
+  - If the access point doesn't appear, ensure the car is powered on. Without power, the ESP32 won’t be able to broadcast the access point.
+
+3. **After assembling the car and connecting to the ESP32 access point, run this [Python script](SmartCar.py).**
+   - The car’s default IP address is `192.168.4.1`  
+   - Communication with the car is handled over **port 100**
+4. **Test the commands.**
+   -  
 
 
     
