@@ -94,7 +94,7 @@ The following hardware components from the **Elegoo Smart Robot Car V4.0** kit a
 - **Elegoo Smart Robot Car V4** for the base hardware and integration with the ESP32 board.
 
 ## Demonstration video  
-This [video](https://youtu.be/0AbyosnZ-v8) demonstrates how the project works. 
+This [video](https://youtu.be/LWXJmU3QFK4) demonstrates how the project works. 
 
 
      
