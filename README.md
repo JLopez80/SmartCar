@@ -57,7 +57,10 @@ The following hardware components from the **Elegoo Smart Robot Car V4.0** kit a
    > ⚠️ These details are mentioned in the manual but can be easily overlooked. If any motors are connected incorrectly, the car may move in the wrong direction when executing commands.
 
 2. **Turn on the car and connect to the ESP32 access point.**
-   - (images/ElegooAccessPoint.png) 
+   - **Example: ESP32 Access Point shown on available Wi-Fi networks**
+
+        ![ESP32 Access Point](images/Elegoo-Access-Point.png)
+
    - If the access point doesn't appear, ensure the car is powered on. Without power, the ESP32 won’t be able to broadcast the access point.
 
 4. **After assembling the car and connecting to the ESP32 access point, run this [Python script](SmartCar.py).**
