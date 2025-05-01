@@ -60,7 +60,8 @@ The following hardware components from the **Elegoo Smart Robot Car V4.0** kit a
    - **Example: ESP32 Access Point shown on available Wi-Fi networks**
 
         ![ESP32 Access Point](images/Elegoo-Access-Point.png)
-
+      - **NOTE:** Your Access Point will be named differently.
+      - An indication of a successful connection to the access point is when the ESP32’s green LED stops flashing and stays **lit**.
    - If the access point doesn't appear, ensure the car is powered on. Without power, the ESP32 won’t be able to broadcast the access point.
 
 4. **After assembling the car and connecting to the ESP32 access point, run this [Python script](SmartCar.py).**
@@ -68,6 +69,8 @@ The following hardware components from the **Elegoo Smart Robot Car V4.0** kit a
    - Communication with the car is handled over **port 100**
 5. **Test the commands.**
    -  Try *move forward*
+     - The following should appear:
+           
 
 
     
